@@ -779,27 +779,27 @@
 @media (max-width: 720px) {
 
     .nav-logo {
-        font-size: 23px;
+        font-size: 18px;
     }
     .dev {
-        font-size: 12px;
+        font-size: 8px;
     }
 
     .quiz-title {
-        font-size: 32px;
+        font-size: 22px;
     }
     .quiz-paragraph {
-        font-size: 17px;
+        font-size: 12px;
     }
     .quiz-btn {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .quiz-result {
-        max-width: 350px;
+        max-width: 310px;
     }
     .quiz-result > h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
     .quiz-result > p {
         font-size: 28px;
@@ -811,9 +811,9 @@
         font-size: 40px;
     }
 
-    .quiz-container{ max-width: 330px;}
-    .quiz2-container{ max-width: 330px;}
-    .quiz3-container{ max-width: 330px;}
-    .quiz4-container{ max-width: 330px;}
-    .quiz5-container{ max-width: 330px;}
+    .quiz-container{ max-width: 310px;}
+    .quiz2-container{ max-width: 310px;}
+    .quiz3-container{ max-width: 310px;}
+    .quiz4-container{ max-width: 310px;}
+    .quiz5-container{ max-width: 310px;}
 }
