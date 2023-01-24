@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4f12ee4706.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>¿Que tan Fan eres de Batman? - Batman Fan Test</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+        <p class="nav-logo">Batman Fan Test</p>
+
+        <p class="dev">developed by AjessDEV</p>
+        </nav>
+    </header>
+
+    <div class="all-container">
+    <div class="quiz-container">
+        <div class="quiz-container-complete"><i class="fa-solid fa-circle-check"></i></div>
+        <h1 class="quiz-title">Bienvenido al Batman Fan Test</h1>
+        <p class="quiz-paragraph">¿Cual es tu nombre?<br>(Solo se usara para el resultado).</p>
+        <form id="quiz-form">
+            <input autocomplete="off" required maxlength="10" type="text" id="name" class="quiz-input" placeholder="Escribe tu Nombre"><br>
+            <input type="submit" value="Siguiente" id="next-button" class="quiz-btn">
+            <div class="quiz-alert"></div>
+        </form>
+    </div>
+
+    <div class="quiz-container2">
+        <div class="quiz-blocked"><i class="fa-solid fa-lock"></i><p>Completa el cuadro anterior<br>para desbloquear el este cuadro</p></div>
+        <div class="quiz2-container-complete"><i class="fa-solid fa-circle-check"></i>+1</div>
+        <div class="quiz2-container-err"><i class="fa-solid fa-xmark"></i></div>
+
+        <h1 class="quiz2-Ask">¿Batman es un Super Heroe del universo DC?</h1>
+
+        <form id="quiz2-form">
+            <div class="quiz2-form-input-container">
+                    <label class="quiz2-input-label">Si
+                        <input required type="radio" name="si-no" class="quiz2-input" id="quiz2-radio-input1">
+                    </label>
+
+                    <label class="quiz2-input-label">No
+                        <input required type="radio" name="si-no" class="quiz2-input" id="quiz2-radio-input2">
+                    </label>
+            </div>
+            <input type="submit" id="next-button2" class="quiz2-btn" value="Siguiente">
+            <div class="quiz-alert2"></div>
+        </form>
+    </div>
+
+    <div class="quiz-container3">
+        <div class="quiz-blocked3"><i class="fa-solid fa-lock"></i><p>Completa el cuadro anterior<br>para desbloquear el este cuadro</p></div>
+        <div class="quiz3-container-complete"><i class="fa-solid fa-circle-check"></i>+1</div>
+        <div class="quiz3-container-err"><i class="fa-solid fa-xmark"></i></div>
+
+        <h1 class="quiz3-Ask">¿Como se llama el Compañero de Batman?</h1>
+
+        <div class="quiz3-options">
+            <button class="quiz3-option-btn" id="quiz3-man-btn">Robin</button>
+            <button class="quiz3-option-btn" id="quiz3-woman-btn">Gatubela</button>
+        </div>
+    </div>
+
+    <div class="quiz-container4">
+        <div class="quiz-blocked4"><i class="fa-solid fa-lock"></i><p>Completa el cuadro anterior<br>para desbloquear el este cuadro</p></div>
+        <div class="quiz4-container-complete"><i class="fa-solid fa-circle-check"></i>+1</div>
+        <div class="quiz4-container-err"><i class="fa-solid fa-xmark"></i></div>
+
+        <h1 class="quiz4-Ask">¿Quien es el peor Enemigo de Batman?</h1>
+
+        <form id="quiz4-form">
+            <div class="quiz4-form-input-container">
+                    <label class="quiz4-input-label">Pingüino
+                        <input required type="radio" name="si-no" class="quiz4-input" id="quiz4-radio-input1">
+                    </label>
+
+                    <label class="quiz4-input-label">Wason
+                        <input required type="radio" name="si-no" class="quiz4-input" id="quiz4-radio-input2">
+                    </label>
+            </div>
+            <input type="submit" id="next-button4" class="quiz4-btn" value="Siguiente">
+            <div class="quiz-alert4"></div>
+        </form>
+    </div>
+
+    <div class="quiz-container5">
+        <div class="quiz-blocked5"><i class="fa-solid fa-lock"></i><p>Completa el cuadro anterior<br>para desbloquear el este cuadro</p></div>
+        <div class="quiz5-container-complete"><i class="fa-solid fa-circle-check"></i>+1</div>
+        <div class="quiz5-container-err"><i class="fa-solid fa-xmark"></i></div>
+
+        <h1 class="quiz5-Ask">¿En que Pelicula Batman es interpretado por Christian Bale?</h1>
+
+        <form id="quiz5-form">
+            <div class="quiz5-form-input-container">
+                    <label class="quiz5-input-label">Batman Begins
+                        <input required type="radio" name="si-no" class="quiz5-input" id="quiz5-radio-input1">
+                    </label>
+
+                    <label class="quiz5-input-label">Batman vs Superman
+                        <input required type="radio" name="si-no" class="quiz5-input" id="quiz5-radio-input2">
+                    </label>
+            </div>
+            <input type="submit" id="next-button5" class="quiz5-btn" value="Siguiente">
+            <div class="quiz-alert4"></div>
+        </form>
+    </div>
+
+    <div class="res-container"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
